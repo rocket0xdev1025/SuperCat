@@ -203,7 +203,7 @@
                         children: [
                           "Create a wallet ",
                           (0, s.jsx)("br", {}),
-                          "with Metamask",
+                          "with Phantom",
                         ],
                       }),
                       (0, s.jsxs)(u, {
@@ -212,16 +212,16 @@
                           " ",
                           (0, s.jsx)("a", {
                             className: "text-primary underline",
-                            href: "https://Metamask.app",
+                            href: "https://phantom.com",
                             target: "_blank",
-                            children: "Metamask.app",
+                            children: "phantom.com",
                           }),
                           " ",
                           "and follow the simple ",
                           (0, s.jsx)("br", { className: "hidden xl:block" }),
                           "steps to create a new account",
                           (0, s.jsx)("br", { className: "hidden xl:block" }),
-                          "with the Metamask app",
+                          "with the Phantom app",
                         ],
                       }),
                     ],
@@ -236,13 +236,13 @@
                   (0, s.jsxs)(f, {
                     position: "right",
                     children: [
-                      (0, s.jsx)(h, { children: "Get some $ETH" }),
+                      (0, s.jsx)(h, { children: "Get some $SOL" }),
                       (0, s.jsxs)(u, {
                         children: [
                           "Tap the BUY button in the app to purchase",
                           " ",
                           (0, s.jsx)("br", { className: "hidden xl:block" }),
-                          " ETH, or deposit $ETH to your Metamask ",
+                          " SOL, or deposit $SOL to your Phantom ",
                           (0, s.jsx)("br", { className: "hidden xl:block" }),
                           "wallet from the crypto exchange.",
                         ],
@@ -260,7 +260,7 @@
                   (0, s.jsxs)(f, {
                     position: "left",
                     children: [
-                      (0, s.jsx)(h, { children: "Swap $ETH for $SUPERCAT" }),
+                      (0, s.jsx)(h, { children: "Swap $SOL for $SUPERCAT" }),
                       (0, s.jsxs)(u, {
                         children: [
                           "Go to",
@@ -270,11 +270,11 @@
                             children: (0, s.jsx)("a", {
                               href: a,
                               target: "_blank",
-                              children: "Uniswap",
+                              children: "Swap.pump",
                             }),
                           }),
                           " ",
-                          "and swap $ETH for $SUPERCAT",
+                          "and swap $SOL for $SUPERCAT",
                           (0, s.jsx)("br", {}),
                           (0, s.jsxs)(l.J2, {
                             open: i,
@@ -379,22 +379,6 @@
       function f() {
         return (0, s.jsxs)(o, {
           children: [
-            (0, s.jsx)(x, {
-              asChild: !0,
-              children: (0, s.jsx)("p", {
-                className:
-                  "text-center text-primary-foreground text-[32px] leading-[32px] font-dangrek underline cursor-pointer animate-whitepaper-bounce",
-                children: "Check white paper",
-              }),
-            }),
-            (0, s.jsx)(m, {
-              children: (0, s.jsx)(n.default, {
-                src: "/tokenomics/whitepaper.png",
-                alt: "White Paper",
-                width: 1100,
-                height: 750,
-              }),
-            }),
           ],
         });
       }
